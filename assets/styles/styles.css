@@ -273,7 +273,30 @@
     font-size: 13.5px;
     color: var(--muted);
     font-weight: 500;
+    text-decoration: none;
     line-height: 1.4;
+  }
+  .biz-card select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid var(--gold);
+    border-radius: 14px;
+    background-color: var(--white);
+    color: var(--muted);
+    font-size: 13.5px;
+    font-weight: 500;
+    appearance: none; /* Remove default arrow */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%237a5430' d='M2 0L0 2h4L2 0z'/%3E%3C/svg%3E");
+    background-position: right 8px top 50%;
+    background-repeat: no-repeat;
+    background-size: 8px;
+    cursor: pointer;
+  }
+
+  .biz-card select:focus {
+    outline: none;
+    border-color: var(--gold2);
+    box-shadow: 0 0 5px rgba(192,131,42,0.5);
   }
 
   /* -- WHAT YOU GET ----------------------- */
