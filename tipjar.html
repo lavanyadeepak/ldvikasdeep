@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support the Mission – LD VikasDeep</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/styles/styles.css">
+</head>
+<body>
+<!-- -- NAV --><!-- Adding a link to the tip jar page -->
+<nav>
+  <a class="nav-brand" href="index.html">LD VikasDeep (विकासदीप)</a>
+  <span class="nav-tag">A Community Initiative</span>
+</nav>
+
+<div class="hero">
+  <div class="kolam">✦ ◈ ✦ ◈ ✦</div>
+  <h1>Buy the community<br>a <em>cup of chai.</em> ☕</h1>
+  <p>This service is free — always. But if it warmed your heart, here's a joyful way to keep the lamp burning.</p>
+  <span class="free-badge">🪔 &nbsp; Zero obligation &nbsp;·&nbsp; Pure community spirit</span>
+</div>
+
+<div class="body-wrap">
+
+  <div class="feel-note">
+    <span class="chai-icon">☕</span>
+    <h2>Your support <em>pays it forward</em></h2>
+    <p>Every rupee you contribute goes right back into the community — covering hosting costs, helping the next business get online, or simply fuelling the volunteer spirit that makes this possible.</p>
+  </div>
+
+  <div class="ways-grid">
+    <div class="way-card">
+      <span class="way-icon">🏠</span>
+      <h3>Keep a business online</h3>
+      <p>Hosting costs money. Your contribution keeps a neighbour's page live for another month.</p>
+    </div>
+    <div class="way-card">
+      <span class="way-icon">✨</span>
+      <h3>Launch the next one</h3>
+      <p>Pay it forward — your support helps the next home business get their first webpage.</p>
+    </div>
+    <div class="way-card">
+      <span class="way-icon">🪔</span>
+      <h3>Keep the lamp lit</h3>
+      <p>Tools, domains, time. Even a small contribution keeps this mission going strong.</p>
+    </div>
+  </div>
+
+  <div class="chai-jar">
+    <span class="jar-label">The Community Chai Jar ☕</span>
+    <h2>Contribute — any amount, your wish</h2>
+    <p class="sub">No minimum. No maximum. Just whatever feels right to you.</p>
+
+    <div class="amounts-row">
+      <button class="amount-pill" onclick="selectAmount(this)">₹21<span class="pill-label">a chai</span></button>
+      <button class="amount-pill" onclick="selectAmount(this)">₹51<span class="pill-label">a meal</span></button>
+      <button class="amount-pill" onclick="selectAmount(this)">₹101<span class="pill-label">a month's hosting</span></button>
+      <button class="amount-pill" onclick="selectAmount(this)">₹251<span class="pill-label">a new page</span></button>
+      <button class="amount-pill" onclick="selectAmount(this)">Any ₹<span class="pill-label">your choice</span></button>
+    </div>
+
+    <div class="upi-display">
+      <span class="upi-id" id="upi-id">lavanyadeepak@airtel</span>
+      <button class="copy-btn" id="copy-btn" onclick="copyUPI()">Copy</button>
+    </div>
+    <br>
+    <button class="bank-toggle-btn" onclick="toggleBank()">🏦 &nbsp; Prefer bank transfer instead?</button>
+
+    <div class="bank-details" id="bank-details"> 
+      <div class="bank-row"><span class="bank-key">Account Name</span><span class="bank-val">Lavanya Deepak</span></div>
+      <div class="bank-row"><span class="bank-key">Account Number</span><span class="bank-val">— add yours —</span></div>
+      <div class="bank-row"><span class="bank-key">IFSC Code</span><span class="bank-val">— add yours —</span></div>
+      <div class="bank-row"><span class="bank-key">Bank</span><span class="bank-val">— add yours —</span></div>
+    </div>
+  </div>
+
+  <div class="no-pressure">
+    <span class="np-icon">🙏</span>
+    <h3>No pressure — truly.</h3>
+    <p>This page exists only because some people asked for a way to give back. If you are the business owner whose page was built — <strong>your gratitude is more than enough.</strong> Use the page, thrive, and pass the kindness on in your own way.</p>
+  </div>
+
+  <div class="other-ways">
+    <h3>Other ways to <em>keep the community growing</em></h3>
+    <div class="other-grid">
+      <div class="other-card">
+        <span class="oc-icon">📣</span>
+        <div>
+          <h4>Spread the word</h4>
+          <p>Know a home business that deserves a page? Tell them about LD VikasDeep. Word of mouth is the most powerful support.</p>
+        </div>
+      </div>
+      <div class="other-card">
+        <span class="oc-icon">⭐</span>
+        <div>
+          <h4>Share your story</h4>
+          <p>Did your page bring in a new customer? A kind message or testimonial means the world — and inspires others.</p>
+        </div>
+      </div>
+      <div class="other-card">
+        <span class="oc-icon">🤝</span>
+        <div>
+          <h4>Volunteer alongside</h4>
+          <p>Know design, writing, or photography? Reach out — there's always a way to contribute your skill to this mission.</p>
+        </div>
+      </div>
+      <div class="other-card">
+        <span class="oc-icon">🛍️</span>
+        <div>
+          <h4>Buy from the community</h4>
+          <p>The simplest support — visit the pages, order the food, buy the craft. Every purchase keeps a home business alive.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="thankyou-band">
+    <div class="kolam">✦ ◈ ✦ ◈ ✦</div>
+    <p>From the bottom of my heart —</p>
+    <div class="big-thanks">"Thank you for keeping the lamp burning." 🪔</div>
+    <p>Built with <span class="heart">♥</span> &nbsp;·&nbsp; <strong style="color:var(--gold2);">LD VikasDeep</strong> &nbsp;·&nbsp; #GivingBack</p>
+  </div>
+
+</div>
+<footer class="community-footer">
+  <div class="kolam-divider">✦ ◈ ✦ ◈ ✦</div>
+  <p>
+    A volunteer‑driven inspirational support for small home‑based and/or small family‑owned businesses
+  </p>
+  <a href="https://lavanyadeepak.rf.gd/" class="home-link" target="_blank" rel="noopener">
+    🏡 Visit My Personal Profile Page
+  </a>
+  <br>
+  <span class="tag">#GivingBack &nbsp;·&nbsp; Together We Grow</span>
+</footer>
+
+
+<script>
+function selectAmount(btn) {
+  document.querySelectorAll('.amount-pill').forEach(p => p.classList.remove('active'));
+  btn.classList.add('active');
+}
+function copyUPI() {
+  const id = document.getElementById('upi-id').textContent;
+  navigator.clipboard.writeText(id).then(() => {
+    const btn = document.getElementById('copy-btn');
+    btn.textContent = 'Copied!';
+    btn.classList.add('copied');
+    setTimeout(() => { btn.textContent = 'Copy'; btn.classList.remove('copied'); }, 2000);
+  });
+}
+function toggleBank() {
+  const d = document.getElementById('bank-details');
+  d.classList.toggle('open');
+}
+</script>
+</body>
+</html>
