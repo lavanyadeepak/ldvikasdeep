@@ -3,102 +3,60 @@
     "category": "Homely Foods (Kitchen Services)",
     "icon": "🍱",
     "providers": [
-      {
-        "name": "Sri Homely Foods",
-        "url": "./../srihomelyfoods/"
-      }
-    ]
-  },
-  {
-    "category": "Homely Foods (Kitchen Services)",
-    "icon": "🍱",
-    "providers": [
-      {
-        "name": "Ramya Veg Cafe",
-        "url": "./../ramyavegcafe/"
-      }
+      { "name": "Sri Homely Foods", "url": "./../srihomelyfoods/" },
+      { "name": "Ramya Veg Cafe", "url": "./../ramyavegcafe/" }
     ]
   },
   {
     "category": "Construction and Renovation",
-    "icon": "🍱",
+    "icon": "🏗️",
     "providers": [
-      {
-        "name": "Haritha Constructions",
-        "url": "./../harithaconstructions/"
-      }
-    ]
-  },  
-  {
-    "category": "Computer and Mobile Repair",
-    "icon": "🍱",
-    "providers": [
-      {
-        "name": "I Fix Laptop",
-        "url": "./../ifixlaptop/"
-      }
+      { "name": "Haritha Constructions", "url": "./../harithaconstructions/" }
     ]
   },
-{
-    "category": "Fancy Shops and Cosmetics",
-    "icon": "🍱",
+  {
+    "category": "Computer and Mobile Repair",
+    "icon": "💻",
     "providers": [
-      {
-        "name": "Jain Novelties",
-        "url": "./../jainnovelties/"
-      }
+      { "name": "I Fix Laptop", "url": "./../ifixlaptop/" }
+    ]
+  },
+  {
+    "category": "Fancy Shops and Cosmetics",
+    "icon": "💄",
+    "providers": [
+      { "name": "Jain Novelties", "url": "./../jainnovelties/" }
     ]
   },
   {
     "category": "Charity and Volunteering",
-    "icon": "🍱",
+    "icon": "🤝",
     "providers": [
-      {
-        "name": "Mahadev Charity Trust",
-        "url": "./../mahadevcharity/"
-      },
-      {
-        "name": "Kalamin Karangal",
-        "url": "https://www.kalaminkarangal.com/"
-      }
+      { "name": "Mahadev Charity Trust", "url": "./../mahadevcharity/" },
+      { "name": "Kalamin Karangal", "url": "https://www.kalaminkarangal.com/" }
     ]
-  },    
-   {
+  },
+  {
     "category": "Temples and Religious Services",
-    "icon": "🍱",
+    "icon": "🛕",
     "providers": [
-      {
-        "name": "Sri Pattabhishekha Ramar Sametha Bhaktha Navagraha Anjaneya Temple",
-        "url": "./../mahadevreligioustrust/"
-      }
+      { "name": "Sri Pattabhishekha Ramar Sametha Bhaktha Navagraha Anjaneya Temple", "url": "./../mahadevreligioustrust/" }
     ]
-  }, 
+  },
   {
     "category": "Tours and Travels",
     "icon": "✈️",
     "providers": [
-      {
-        "name": "Sri Lakshmi Hayavadana Vaishnava Yatra",
-        "url": "./../slhvy/"
-      },
-      {
-        "name": "Home Stay Kumbakonam",
-        "url": "./../hsk/"
-      }
+      { "name": "Sri Lakshmi Hayavadana Vaishnava Yatra", "url": "./../slhvy/" },
+      { "name": "Home Stay Kumbakonam", "url": "./../hsk/" }
     ]
   },
-    {
+  {
     "category": "Consulting Services",
-    "icon": "✈️",
+    "icon": "💼",
     "providers": [
-      {
-        "name": "Skanda IT",
-        "url": "./../skandait/"
-      },
-      {
-        "name": "Sri Vaibhavam Corporate and Consultancy Services",
-        "url": "https://www.srivaibhavam.in/"
-      }
+      { "name": "Skanda IT", "url": "./../skandait/" },
+      { "name": "Sri Vaibhavam Corporate and Consultancy Services", "url": "https://www.srivaibhavam.in/" }
     ]
   }
 ]
